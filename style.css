@@ -1,0 +1,159 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-image: url("images/pexels-rdne-stock-project-7563681-PhotoRoom.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.navbar-brand img{
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+nav{
+  background-color: #a47e1b;
+}
+
+.anav{
+font-size:2rem;
+color: white;
+
+}
+
+.linav{
+  background-color: rgba(0,0,0,0.5);
+}
+
+header{
+  background-image: url("images/pexels-rdne-stock-project-7563681-PhotoRoom.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+
+}
+
+.banner-container{
+
+height: 100vh;
+}
+
+.h1font{
+ 
+  font-size: 4rem;
+ color: #a47e1b;
+
+}
+
+.btncolor{
+  background-color: white;
+  color: #a47e1b;
+ 
+}
+
+.iconstyle{
+ color: #a47e1b;
+}
+
+main{
+ 
+}
+
+#featuresmain{
+ 
+  background-image: url("images/pexels-rdne-stock-project-7563681-PhotoRoom.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+.borderstyle{
+  border-bottom: 1px solid #a47e1b ;
+  border-left: 1px solid #a47e1b;
+  border-right: 1px solid #a47e1b;
+ 
+}
+
+.hr-style{
+  border: 5px dotted #a47e1b;
+  border-bottom: none;
+  width: 200px;
+margin: auto;
+margin-bottom: 1rem;
+
+}
+
+.abouticon{
+  color: #a47e1b;
+}
+
+.personalinfobody p{
+  font-weight: bold;
+}
+
+#about-me{
+  color: white;
+  background-image: url("images/pexels-rdne-stock-project-7563681-PhotoRoom.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#services{
+  background-image: url("images/pexels-rdne-stock-project-7563681-PhotoRoom.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.carousel-item{
+padding: 7% 15%;
+font-style: italic;
+}
+
+.pcolor{
+  color: #a47e1b;
+}
+.carousel-indicators{
+  margin-top: 5rem;
+}
+.astyle{
+  margin-right: 1rem;
+}
+
+.hr-style-aboutme{
+  border: 5px dotted #a47e1b;
+  border-bottom: none;
+  width: 200px;
+margin: auto;
+margin-bottom: 1rem;
+
+}
+.box-shadow{
+  transition: 2s;
+}
+
+.box-shadow:hover{
+  transform: scale(0.8);
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-indicators {
+    display:none;
+  }
+}
